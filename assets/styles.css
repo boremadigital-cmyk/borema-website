@@ -202,8 +202,7 @@ hr {
 .logo:hover { border-bottom-color: transparent; color: var(--accent); }
 
 .logo img {
-  width: 28px;
-  height: 28px;
+  width: 150px;
   display: block;
 }
 
@@ -408,7 +407,6 @@ hr {
 
   .site-header .container-wide {
     flex-direction: column;
-    align-items: flex-start;
     gap: var(--space-sm);
   }
 
