@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>COD Fee Pro Demo — Borema Digital</title>
+<meta name="description" content="Watch COD Fee Pro in action — Cash on Delivery surcharge for Plus checkout." />
+<meta name="robots" content="noindex, nofollow" />
+<link rel="icon" type="image/png" href="/assets/favicon.png" />
+<link rel="stylesheet" href="/assets/styles.css" />
+<style>
+  .video-wrap {
+    margin: var(--space-lg) 0;
+    background: var(--ink);
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 4px 24px rgba(10,22,40,0.08);
+  }
+  .video-wrap video {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .demo-meta {
+    margin-top: var(--space-md);
+    font-size: 0.9rem;
+    color: var(--ink-muted);
+  }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container-wide">
+    <a href="/" class="logo">
+      <img src="/assets/borema-logo.png" alt="" />
+    </a>
+    <nav class="site-nav">
+      <a href="/#apps">Apps</a>
+      <a href="/contact/">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero">
+    <div class="container">
+      <span class="eyebrow">Demo · COD Fee Pro</span>
+      <h1>See it in action.</h1>
+      <p class="lead">
+        A short walkthrough of COD Fee Pro — installing the app,
+        configuring the fee amount, and the customer experience at
+        checkout.
+      </p>
+    </div>
+  </section>
+
+  <section class="container">
+    <div class="video-wrap">
+      <video controls preload="metadata" playsinline>
+        <source src="/assets/cod-fee-demo.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+        <a href="/assets/cod-fee-demo.mp4">Download the video</a> to watch it.
+      </video>
+    </div>
+
+    <p class="demo-meta">
+      Recorded on a development Plus store. The fee amount, banner text,
+      and per-market behaviour shown here are all configurable from the
+      app dashboard and the checkout customizer.
+    </p>
+
+    <p style="margin-top: var(--space-md);">
+      <a href="/apps/cod-fee-pro/">&larr; Read more about COD Fee Pro</a>
+    </p>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container-wide">
+    <div>
+      &copy; <span id="year">2026</span> Borema Digital. All rights reserved.
+    </div>
+    <nav>
+      <a href="/privacy/">Privacy</a>
+      <a href="/terms/">Terms</a>
+      <a href="/contact/">Contact</a>
+    </nav>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
